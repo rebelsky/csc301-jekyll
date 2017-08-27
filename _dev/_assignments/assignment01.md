@@ -1,9 +1,10 @@
 ---
-title: 'Assignment 1: Getting Started'
+title: 'Assignment 1: Getting started'
 link: true
 assigned: 2017-08-25
 due: 2017-08-30
 due-time: 10:30pm
+current: true
 ---
 # {{ page.title }}
 
@@ -26,7 +27,7 @@ may choose to submit the code for the assignment as a pair or trio.
 course instructor with a subject of **CSC 301 Assignment 1 (Your Name)**.
 You should, of course, substitute your name in that subject.
 
-*Warning*: So that this assignment is a learnign experience for everyone,
+*Warning*: So that this assignment is a learning experience for everyone,
 we may spend class time publicly critiquing your work.
 
 *Evaluation*: We will primarily evaluate your work on its *correctness*
@@ -76,10 +77,11 @@ You should implement the following procedures
   in the heap; and
 * `(add heap value)`, which adds a value to the heap.
 
-## Problem 2: Robotic Motion
+## Problem 2: Robotic motion
 
-In section 1.1, Skiena describes a series of heuristics for choosing
-an order of points to solder so as to minimize total distance traveled.
+In section 1.1 of _The Algorithm Design Manual_, Skiena describes a
+series of heuristics for choosing an order of points to solder so as to
+minimize total distance traveled.
 
 Using a language of your choice, implement four heuristics (procedures)
 that take a sequence of points as input and produce an order in which
