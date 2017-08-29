@@ -83,9 +83,9 @@ In section 1.1 of _The Algorithm Design Manual_, Skiena describes a
 series of heuristics for choosing an order of points to solder so as to
 minimize total distance traveled.
 
-Using a language of your choice, implement four heuristics (procedures)
-that take a sequence of points as input and produce an order in which
-to solder the points.
+Using a programming language of your choice, implement four heuristics
+(procedures) that take a sequence of points as input and produce an
+order in which to solder the points.
 
 1. One that starts at a random point and uses the "closest point next"
 strategy.
