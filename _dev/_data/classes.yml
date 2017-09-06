@@ -39,15 +39,28 @@
     - Quick review of asymptotic/complexity analysis
     - Additional characteristics of Big-Oh
 
-
-- topic: Divide-and-conquer algorithms
+- topic: Divide-and-conquer algorithms and structures
   abbrev: divide-and-conquer
+  summary: We explore one of the important algorithm design techniques, divide and conquer.  Divide and conquer algorithms and structures achieve some efficiency by splitting the input in half.
+  subjects:
+    - Divide and conquer, in theory
+    - Review of divide-and-conquer algorithms and structures
+    - Finding the median value in an array
+    - Exponentiation with integer exponents
+    - Analyzing divide-and-conquer algorithms
 
 - topic: Asymptotic analysis and recurrence relations
   abbrev: proof-divide-and-conquer
+  summary: We explore ways to think about the running time of divide-and-conquer algorithms.
+  subjects:
+    - The median algorithm, revised
+    - Two generic divide-and-conquer algorithms
+    - Modeling the running time of the generic algorithms
+    - Estimating the running time
+    - Looking ahead: The master theorem
 
-- topic: Pause for breath
-  abbrev: pause-01
+- topic: The Master Theorem
+  abbrev: master-theorem
 
 - topic: Roles of data structures and abstract data types
   abbrev: data-structures

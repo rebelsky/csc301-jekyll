@@ -3,7 +3,6 @@ title: Eboard 04  Reflective activities
 number: 04
 section: eboards
 held: 2017-09-01
-current: true
 ---
 CSC 301.01, Class 04:  Reflective activities
 ============================================
