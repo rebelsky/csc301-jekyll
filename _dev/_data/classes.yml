@@ -1,4 +1,4 @@
-- topic: An introduction to the coure
+- topic: An introduction to the course
   abbrev: course-intro
   summary: We begin to consider the core ideas of the course.
   subjects:
@@ -61,9 +61,22 @@
 
 - topic: The Master Theorem
   abbrev: master-theorem
+  summary: We consider proofs related to recurrence relations, and therefore to divide-and-conquer algorithms.
+  subjects:
+    - Detour - Recursion vs. iteration
+    - Recursion trees, revisited
+    - Proving asymptotic bounds of recursive functions
+    - The master theorem
 
 - topic: Roles of data structures and abstract data types
   abbrev: data-structures
+  summary: We begin to consider the ADTs and data strutures that underlie many of the algorithms we write.
+  subjects:
+    - Abstract data types
+    - Data structures
+    - The Dictionary ADT
+
+
 
 - topic: Hash Tables
   abbrev: hash-tables
