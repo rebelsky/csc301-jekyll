@@ -80,6 +80,11 @@
 
 - topic: Hash Tables
   abbrev: hash-tables
+  summary: We consider hash tables, one of the more popular implementations of the dictionary ADT.
+  subjects:
+    - Review of hash tables.
+    - Hash functions, revisited.
+    - Other uses of hash tables and hash functions.
 
 - topic: An introduction to trees
   abbrev: trees
