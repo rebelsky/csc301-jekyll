@@ -50,7 +50,10 @@ we may spend class time publicly critiquing your work.
 
 Implement chained (a.k.a. "bucketed") hash tables in Scheme.
 Your keys will be strings.  Your values will be arbitrary Scheme
-values.
+values.  You should provide `add`, `update`, `find`, and `delete`
+procedures.  `add` should report an error to the caller if the key
+is already in the table and `update` should report an error to the
+caller if the key is not already in the table.
 
 Your table should grow when it is more than 50% full.
 
@@ -59,8 +62,11 @@ Use the Skiena "sum of powers" for the hash function.
 Use unit tests to verify that key/value pairs are appropriately added,
 updated, and removed.
 
+You need not test your hash function.
+
 Bonus: Parameterize the hash table "constructor" to permit changing some 
-or all of these policies.
+or all of these policies (e.g., the percent at which you expand, the
+hash function).
 
 ## Part 2: Sets of Strings
 
@@ -76,7 +82,7 @@ to have a "Set of Strings" abstract data type with the following methods.
 
 a. Describe three reasonable implements of this ADT.
 
-b. For each, indicte that asymptotic cost of each method.  In determining
+b. For each, indicate that asymptotic cost of each method.  In determining
 the asymptotic cost of each method, make sure that you consider not only
 the size of the set (`n`), but also the length of the string (`m`).
 
