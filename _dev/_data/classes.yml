@@ -88,6 +88,11 @@
 
 - topic: An introduction to trees
   abbrev: trees
+  summary: We consider some basic issues of the tree ADT / data structure.
+  subjects:
+    - Hash tables: semi-formal analysis
+    - Other ways to represent dictionaries
+    - Trees
 
 - topic: Binary search trees
   abbrev: bst
