@@ -226,7 +226,7 @@ d. f(n) = 4*f(n/2) + bn
 
 e. f(n) = 2*f(n/4) + bn
 
-f. f(n) = f(n/2) + d*n^2 bn + c
+f. f(n) = f(n/2) + d*n^2  bn + c
 
 Please explain how you found each result.  (And no, "I looked on Wolfram
 Alpha" is not an explanation.)
