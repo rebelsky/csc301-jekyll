@@ -201,7 +201,7 @@ However, string comparison requires us to look at every character in each
 string.  That means that this algorithm is O(|s|*|t|).
 
 Skiena suggests that there is an O(|s|+|t|) approach using the
-clever hash function.  Implement that approach.
+clever hash function.  Implement that approach in C.
 
 ### Problem 2: Revisiting recurrence relations
 
@@ -226,7 +226,7 @@ d. f(n) = 4*f(n/2) + bn
 
 e. f(n) = 2*f(n/4) + bn
 
-f. f(n) = f(n/2) + d*n^2  bn + c
+f. f(n) = f(n/2) + d*n^2 + bn + c
 
 Please explain how you found each result.  (And no, "I looked on Wolfram
 Alpha" is not an explanation.)
@@ -258,7 +258,7 @@ c. When two functions have the same bound, their sum also has that bound.
 * and h(n) is in O(g(n))
 * then (f(n) + h(n)) is in O(g(n))
 
-c. The bound of the sum of two functions is the bound of the two functions.
+d. The bound of the sum of two functions is the bound of the two functions.
 
 * if (f(n) + h(n)) is in O(g(n))
 * then f(n) is in O(g(n))
