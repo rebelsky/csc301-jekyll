@@ -76,8 +76,6 @@
     - Data structures
     - The Dictionary ADT
 
-
-
 - topic: Hash Tables
   abbrev: hash-tables
   summary: We consider hash tables, one of the more popular implementations of the dictionary ADT.
@@ -86,8 +84,8 @@
     - Hash functions, revisited.
     - Other uses of hash tables and hash functions.
 
-- topic: An introduction to trees
-  abbrev: trees
+- topic: More on dictionaries
+  abbrev: dictionaries
   summary: We consider some basic issues of the tree ADT / data structure.
   subjects:
     - Hash tables: semi-formal analysis
@@ -96,15 +94,30 @@
 
 - topic: Binary search trees
   abbrev: bst
+  summary: We continue trees in general and binary search trees in particular.
+  subjects:
+    - Trees, formalized
+    - Terminology
+    - Binary trees
+    - Traversing trees
+    - Binary search trees
+    - Building balanced BSTs.
+    - Balancing BSTs.
 
 - topic: Red-black trees 
   abbrev: red-black-trees
+  summary: We start to consider red-black trees, one of the approaches for keeping search trees relatively balanced.
+  subjects:
+    - Red-black tree basics
+    - Red-black tree examples
+    - Insertion in red-black trees
 
 - topic: Red-black trees, continued
   abbrev: red-black-trees-continued
-
-- topic: Red-black trees, concluded
-  abbrev: red-black-trees-concluded
+  summary: We continue our exploration of red-black trees.
+  subjects:
+    - Deletion in binary-search trees
+    - Deletion in red-black trees
 
 - topic: 2-3 trees
   abbrev: two-three-trees
@@ -112,14 +125,11 @@
 - topic: Sorting
   abbrev: sorting
 
+- topic: Lower bounds on sorting algorithms
+  abbrev: lower-bounds
+
 - topic: Discussion of exam 1
   abbrev: exam1
-
-- topic: Heap sort
-  abbrev: heap-sort
-
-- topic: Lower bounds
-  abbrev: lower-bounds
 
 - topic: O(n) sorting algorithms
   abbrev: fast-sorting
@@ -130,14 +140,20 @@
 - topic: Tries
   abbrev: tries
 
-- topic: Pause for breath
-  abbrev: pause-02
-
 - topic: Graph ADTs
   abbrev: graph-adt
 
 - topic: Implementing the graph ADT
   abbrev: graphs-implementation
+
+- topic: Program verification (1)
+  abbrev: verification-1
+
+- topic: Program verification (2)
+  abbrev: verification-2
+
+- topic: Program verification (3)
+  abbrev: verification-3
 
 - topic: Minimum spanning trees
   abbrev: mst
