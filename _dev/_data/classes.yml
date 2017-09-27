@@ -121,15 +121,30 @@
 
 - topic: 2-3 trees
   abbrev: two-three-trees
+  summary: We continue to explore balanced trees by considering another approach to balancing trees.
+  subjects:
+    - Review: red-black trees
+    - 2-3 trees
+    - Insertion in 2-3 trees
+    - Deletion in 2-3 trees
+
+- topic: Pause for breath
+  abbrev: pause-05
+  summary: We pause to catch up on balanced trees and other issues.
+  subjects:
+    - Insertion in 2-3 trees, revisited
+    - Deletion in 2-3 trees
+    - B-trees
+    - 2-3-4 trees vs. red-black trees
 
 - topic: Sorting
   abbrev: sorting
 
-- topic: Lower bounds on sorting algorithms
-  abbrev: lower-bounds
-
 - topic: Discussion of exam 1
   abbrev: exam1
+
+- topic: Lower bounds on sorting algorithms
+  abbrev: lower-bounds
 
 - topic: O(n) sorting algorithms
   abbrev: fast-sorting
@@ -140,11 +155,8 @@
 - topic: Tries
   abbrev: tries
 
-- topic: Graph ADTs
-  abbrev: graph-adt
-
-- topic: Implementing the graph ADT
-  abbrev: graphs-implementation
+- topic: Pause for breah
+  abbrev: pause-07
 
 - topic: Program verification (1)
   abbrev: verification-1
@@ -154,6 +166,12 @@
 
 - topic: Program verification (3)
   abbrev: verification-3
+
+- topic: Graph ADTs
+  abbrev: graph-adt
+
+- topic: Implementing the graph ADT
+  abbrev: graphs-implementation
 
 - topic: Minimum spanning trees
   abbrev: mst
@@ -167,26 +185,20 @@
 - topic: Shortest paths
   abbrev: shortest-paths
 
-- topic: Pause for breath
-  abbrev: pause-03
-
 - topic: Network flows
   abbrev: network-flows
 
-- topic: Discussion of exam 2
-  abbrev: exam2
-
 - topic: Dynamic programming (1)
   abbrev: dynamic-programming-1
+
+- topic: Discussion of exam 2
+  abbrev: exam2
 
 - topic: Dynamic programming (2)
   abbrev: dynamic-programming-2
 
 - topic: Dynamic programming (3)
   abbrev: dynamic-programming-3
-
-- topic: Pause for breath
-  abbrev: pause-05
 
 - topic: Basics of string matching
   abbrev: string-matching basics
