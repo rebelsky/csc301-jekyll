@@ -39,4 +39,4 @@ we may spend class time publicly critiquing your work.
 
 ## Problems
 
-Do CLRS problems 13.2-1, 13.2-2, 13.3-2, 13.3-5, 13.3-6, 13.4-3, 13.4-5, 13.4-7.
+Do CLRS problems 13.2-1, 13.2-2, 13.3-2, 13.3-5, 13.3-6, 13.4-3, 13.4-5, 13.4-6, and 13.4-7.
