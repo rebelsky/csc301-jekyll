@@ -1,9 +1,10 @@
 ---
-title: Assignment 5
-link: false
-assigned:
+title: "Assignment 5: Red-black trees"
+link: true
+assigned: 2017-10-27
 due: 2017-10-04
 due-time: 10:30pm
+current: true
 ---
 # {{ page.title }}
 
