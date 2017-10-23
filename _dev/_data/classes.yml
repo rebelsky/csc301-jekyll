@@ -139,33 +139,84 @@
 
 - topic: Sorting
   abbrev: sorting
-
-- topic: Discussion of exam 1
-  abbrev: exam1
+  summary: We begin our consideration of one of the most common algorithmic problems, that of putting a collection of values in order.
+  subjects:
+    - Deletion in 2-3 trees
+    - Common sorting algorithms
+    - Characteristics of sorting algorithms
+    - Detour - Thinking about algorithm design
 
 - topic: Lower bounds on sorting algorithms
   abbrev: lower-bounds
+  summary: We consider lower bounds on comparison-based sorting algorithms.
+  subjects:
+    - Detour - Thinking about algorithm design
+    - Compare and swap algorithms
+    - Decision trees
+    - Estimating log(n!)
+    - Detour - Deletion in 2-3 trees
 
 - topic: O(n) sorting algorithms
   abbrev: fast-sorting
+  summary: We consider some algorithms that achieve O(n) running time, often by limitin the input in certain ways.
+  subjects:
+    - A sorting exercise
+    - Other strategies for sorting
+    - Bucket sort
+    - Radix sort
 
 - topic: Radix sort
   abbrev: radix-sort
+  summary: We continue our exploration of O(n) algorithms, focusing primarily on bucket sort and radix sort
+  subjects:
+    - Another sorting example
+    - Radix sort
+    - Analyzing radix sort
+    - Bucket sort, revisited
+    - Analyzing bucket sort
+
+- topic: Discussion of exam 1
+  abbrev: exam1
+  summary: We consider exam 1
+  subjects:
+    - Problem 1
+    - Problem 2
+    - Problem 3
+    - Problem 4
+    - Problem 5
 
 - topic: Tries
   abbrev: tries
+  summary: We explore the trie data structure.
+  subjects:
+    - Review of dictionaries
+    - Costs of dictionary implementations
+    - Tries
 
 - topic: Pause for breah
   abbrev: pause-07
+  summary: We wrap up a variety of topics
 
 - topic: Program verification (1)
   abbrev: verification-1
+  subjects:
+    - Skip lists
+    - Goals for this unit
+    - Verifying imperative code
+    - Example - binary search
+    - Example - binary search, revised
 
 - topic: Program verification (2)
   abbrev: verification-2
+    - Verifying recursive procedures
+    - Example - Efficient exponentiation with recursion
+    - Example - Efficient exponentiation with iteration
+    - Loop invariants, revisited
+    - Example - Dutch national flag
 
 - topic: Program verification (3)
   abbrev: verification-3
+    - Memory models, revisited
 
 - topic: Graph ADTs
   abbrev: graph-adt

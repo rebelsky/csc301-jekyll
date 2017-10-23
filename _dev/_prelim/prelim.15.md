@@ -10,7 +10,7 @@ link: true
 * [Exam 1](../exams/exam01) due TODAY at 5:00 p.m.
     * If you attend the Google talk at 4:00 p.m., you may have until
       7:00 p.m.
-* [Assignment 5](../assignments/assignment05) due next Tuesday at 10:30 p.m.
+* [Assignment 5](../assignments/assignment05) due next Wednesday at 10:30 p.m.
 
 ### Extra credit (Academic)
 
