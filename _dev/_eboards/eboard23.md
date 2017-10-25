@@ -55,6 +55,77 @@ Skip lists
 
 _I will take your questions and then add my own questions for you._
 
+What should we do about maxlevel?
+  : Option 1: Pick some number, like 20.
+  : Option 2: Expand the dummy node at the front when you build a node
+    of a level higher than maxlevel.
+  : In either case, you should probably start the dummy node at a relatively
+    large height.
+
+What should we do if the key is not in the list (for search or delete).
+  : Up to you, as long as it's documented.
+  : In Java, traditionally throw an exception.
+  : In C, return null.
+  : Have a separate `containskey` method which is a precondition.
+
+Should the number of incoming pointers equal the number of outgoing pointers
+(except for the dummy node at the front and the nil node at the end)?
+  : Yes.
+
+How would you print figure 1e?
+  : As follows
+
+```
+X X X X
+| | | |
+3 | | |
+| | | |
+6 6 6 6
+| | | |
+7 | | |
+| | | |
+9 9 | |
+| | | |
+```
+
+Are you printing keys or values?
+  : Keys.  That's all we really care about right now.  If you'd like, you
+    could also print the values.
+
+```
+X X X X
+| | | |
+X | | |         3: Some value
+| | | |
+X X X X         6: Another value
+| | | |
+X | | |         7: And another
+| | | |
+X X | |         9: And yet another
+| | | |
+```
+
+What are the big ideas in skip lists?  What purpose do they serve?  How
+are they implemented?
+  : Skip lists are designed to allow you to search quickly through a
+    collection of values.  They implement Dictionaries.  They are
+    expected O(logn) for find, remove, and insert.
+  : It's like a linked list, but you have extra pointers that skip some
+    of the nodes.  By using the extra pointers, we can quickly skip
+    over large chunks of the list.
+
+Given that we have tries and hash tables, why bother with skip lists?
+  : Probably easier to implement than balanced binary trees.
+  : May use less memory than Tries.
+  : Avoids the evil rehashing that sometimes happens in hash tables.
+  : Doesn't rely on a well designed hash function or a good distribution
+    of data.  It works for any (orderable) data.
+  : Iteration from smallest to largest is easy.  (Just follow the links
+    at level 0.)  So for instances in which we need that capability, 
+    superior to hash tables.
+  : Works with values not easily decomposable into sequences.
+  : Reveals new ways of thinking about data structure design.
+
 Goals for this unit
 -------------------
 
