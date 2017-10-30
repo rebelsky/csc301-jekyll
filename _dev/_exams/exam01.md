@@ -155,7 +155,7 @@ to use.  You might sketch an algorithm.  You might pose a question to
 yourself. (We won't necessarily read this in a timely fashion, so if you
 have questions for your instructor, you should ask by email or in person.)
 
-If, when looking at a problem, you think you already know the answer,
+    If, when looking at a problem, you think you already know the answer,
 you can feel free to write something short like "solved" or "trivial".
 
 2. *Which of those problems do you expect to be the most difficult

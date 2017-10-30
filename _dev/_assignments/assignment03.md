@@ -5,7 +5,6 @@ link: true
 assigned:
 due: 2017-09-13
 due-time: 10:30pm
-current: true
 ---
 # {{ page.title }}
 
@@ -61,7 +60,7 @@ partitioning the array and then recursing on one of the two partititions.
 HackerRank at <https://www.hackerrank.com/challenges/find-the-median>.
 
 3. You will be implementing the generalized algorithm in C.  Write a
-fairly comprehensive set of unit tests.
+fairly comprehensive set of unit tests using `assert` to do the testing.
 
 4. Implement the algorithm in C.
 

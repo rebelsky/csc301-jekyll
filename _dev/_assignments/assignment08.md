@@ -2,7 +2,7 @@
 title: Assignment 8
 link: false
 assigned:
-due: 2017-11-15
+due: 2017-11-08
 due-time: 10:30pm
 ---
 # {{ page.title }}

@@ -4,7 +4,6 @@ link: true
 assigned: 2017-10-27
 due: 2017-10-04
 due-time: 10:30pm
-current: true
 ---
 # {{ page.title }}
 

@@ -40,7 +40,7 @@ Read the following article.
 William Pugh. 1990. Skip lists: a probabilistic alternative
 to balanced trees. _Commun. ACM_ 33,
 6 (June 1990), 668-676. DOI=10.1145/78973.78977.
-<http://doi.acm.org/10.1145/78973.78977">.
+<http://doi.acm.org/10.1145/78973.78977>.
 
 Then implement skip lists in either Scheme, C, or Java.  Your implementation
 should include a procedure that prints out the current state of the skip
