@@ -35,6 +35,8 @@ _Overview_
 ### Extra credit (Peer)
 
 * Neverland players.
+* RTS Friday in Loose Lounge at 9:30 p.m.
+* Saturday 1-3 p.m. art thingy in Bucksbaum Rotunda
 
 ### Extra Credit (Misc)
 
@@ -50,15 +52,58 @@ _Overview_
 
 ### Questions
 
+Yay?
+  : Yay!
+
+
 A sorting exercise
 ------------------
+
+* You have a stack of cards.  Each letter of the alphabet appears once.
+  What do you do?
+* You have a much larger stack of cards.  Each letter of the alphabet 
+  appears many times (not all the same).  What do you do?
+  What do you do?
+
+Idea 1: Somewhat parallel merge sort.  Divide the cards between the members
+of the group.  Tell them to sort (presumably using regular merge sort)
+then merge them all together.  4th place
+
+Idea 2: Spread them out and do selection sort, but with faster selection
+because you can look at everything at the same time.  (Won't scale, not
+really computational.)  3rd place
+
+Idea 3: Put them in twenty six buckets and then pick up the buckets.
+O(n+m), where n is the number of elements and m is the number of buckets.
+2nd place.
+
+Idea 4: Divide and conquer using the binary representation.  One bucket
+for things with 0's on the left, one bucket for things with 1's on the
+left.  (And then sort each.) last place
+
+Idea 5: Insertion sort.  Won by cheating.
 
 Other strategies for sorting
 ----------------------------
 
+O(nlogn) algorithms we did not know what the data were.  Here, we know
+what kind of data we have and the bounds.
+
+Suppose the bounds are big.  E.g., the data are all integers.  We can't
+use the standard bucket sort, but perhaps others.
+
+Our lower bound proof was based on compare and swap.  It doesn't apply
+to bucket sort.
+
 Bucket sort
 -----------
+
+You figured it out.  Make buckets.  Put things in buckets.  Maybe recurse.
+Put it all back together.
 
 Radix sort
 ----------
 
+Assume you have a fixed-length binary representation.  Split things by
+leftmost bit.  Put them back together.  Split by next bit.  Put them
+back together. ...

@@ -1,5 +1,5 @@
 ---
-title: Preliminaries for class 23
+title: Preliminaries for class 24
 section: prelim 
 link: true
 ---
