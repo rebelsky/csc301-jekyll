@@ -1,5 +1,5 @@
 ---
-title: Assignment 7
+title: "Assignment 7: Sorting out sorting"
 link: true
 assigned:
 due: 2017-11-01
