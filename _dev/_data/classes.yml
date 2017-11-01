@@ -197,32 +197,44 @@
   abbrev: pause-07
   summary: We wrap up a variety of topics
 
+- topic: Detour - Skip lists
+  abbrev: skip-lists
+  summary: We consider some details of skip lists.
+  subjects:
+    - Reading the algorithms literature
+    - Skip lists
+
 - topic: Program verification (1)
   abbrev: verification-1
+  summary: We begin to explore why and how we we use formal techniques to verify our algorithms.
   subjects:
-    - Skip lists
     - Goals for this unit
     - Verifying imperative code
     - Example - binary search
-    - Example - binary search, revised
 
 - topic: Program verification (2)
   abbrev: verification-2
+  summary: We consider the details of common verification mechanisms.
+  subjects:
+    - Example - binary search, revised
     - Verifying recursive procedures
     - Example - Efficient exponentiation with recursion
-    - Example - Efficient exponentiation with iteration
-    - Loop invariants, revisited
-    - Example - Dutch national flag
 
 - topic: Program verification (3)
   abbrev: verification-3
-    - Memory models, revisited
+  summary: We continue our exploration of program verification.
+  subjects:
+    - Example - Efficient exponentiation with iteration
 
-- topic: Graph ADTs
-  abbrev: graph-adt
+- topic: Program verification (4)
+  abbrev: verification-4
+  summary: We conclude our exploration of program verification with a traditional example.
+  subjects:
+    - Loop invariants, revisited
+    - Example - Dutch national flag
 
-- topic: Implementing the graph ADT
-  abbrev: graphs-implementation
+- topic: Shortest paths
+  abbrev: shortest-paths
 
 - topic: Minimum spanning trees
   abbrev: mst
@@ -230,11 +242,11 @@
 - topic: Miniumum spanning trees, continued
   abbrev: mst-continued
 
+- topic: Implementing graphs
+  abbrev: graph-implementations
+
 - topic: Sets and union-find
   abbrev: union-find
-
-- topic: Shortest paths
-  abbrev: shortest-paths
 
 - topic: Network flows
   abbrev: network-flows
@@ -257,9 +269,6 @@
 - topic: Improved string-matching algorithms
   abbrev: string-matching-improved
 
-- topic: Pause for breath
-  abbrev: pause-06
-
 - topic: "Looking ahead: P vs. NP"
   abbrev: p-vs-np
 
@@ -268,3 +277,6 @@
 
 - topic: Evaluate and debrief
   abbrev: debrief
+
+- topic: Final Examination
+  abbrev: final
