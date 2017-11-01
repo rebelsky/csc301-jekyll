@@ -1,6 +1,6 @@
 ---
-title: Assignment 8
-link: false
+title: "Assignment 8: Graph algorithms"
+link: true
 assigned:
 due: 2017-11-08
 due-time: 10:30pm
@@ -9,14 +9,10 @@ due-time: 10:30pm
 
 *Due*: {{ page.due | date: '%A, %-d %B %Y' }} by {{ page.due-time }}
 
-*Summary*:
+*Summary*: In this assignment, you will do a variety of exercises
+related to graphs.
 
-*Purpose*:
-
-*Collaboration* (code): You may discuss this assignment with anyone you
-like, provided you credit such discussion when you submit the assignment.
-You will learn more if you do most of the coding on your own, but you
-may choose to submit the code for the assignment as a pair or trio.
+*Purpose*: To enhance your understanding of graphs and graph algorithms.
 
 *Collaboration* (written): You may discuss this assignment with anyone you
 like, provided you credit such discussion when you submit the assignment.
@@ -24,11 +20,6 @@ You will find that you learn the material better more if you follow
 initial design discussions in a group with individual writing.  Each 
 person should write up his, her, zir, or their own work and submit it
 individually.
-
-*Submitting* (code): Create a tarball from your code and then mail it
-to your course instructor with a subject of **CSC 301 Assignment {{
-page.number }} (Your Name)**.  You should, of course, substitute your
-name in that subject.
 
 *Submitting* (written): Turn in your work under my office door.  While I
 would prefer that you use LaTeX, you may certainly do your work by hand.
@@ -46,3 +37,4 @@ will be modified, as appropriate, for written and coding assignments.
 *Warning*: So that this assignment is a learning experience for everyone,
 we may spend class time publicly critiquing your work.
 
+Do problems 5-1, 5-2, 5-6, 5-7, 5-13, 5-20, 5-23, and 5-28 from Skiena.
