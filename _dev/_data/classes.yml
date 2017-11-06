@@ -235,9 +235,23 @@
 
 - topic: Shortest paths
   abbrev: shortest-paths
+  summary: We start our exploration of graphs by considering algorithms for computing the shortest path between nodes in a graph.
+  subjects:
+    - The shortest-path problem.
+    - Dijkstra's shortest-path algorithm.
+    - Analyzing Dijkstra's shortest-path algorithm.
+    - All-pairs shortest-path algorithms
 
 - topic: Minimum spanning trees
   abbrev: mst
+  summary: We consider an important class of graph algorithm, that of computing the minimum spanning tree of a graph.
+  subjects:
+    - Minimum spanning trees
+    - Examples
+    - Designing an MST algorithm
+    - Prim's algorithm and Kruskal's algorithm
+    - Efficiency
+    - Proofs of correctness
 
 - topic: Miniumum spanning trees, continued
   abbrev: mst-continued

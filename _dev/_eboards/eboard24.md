@@ -1,10 +1,10 @@
 ---
-title: Eboard 24  Program verification (2)
+title: Eboard 24  Program verification (1)
 number: 24
 section: eboards
 held: 2017-10-25
 ---
-CSC 301.01, Class 24:  Program verification (2)
+CSC 301.01, Class 24:  Program verification (1)
 ===============================================
 
 _Overview_

@@ -1,10 +1,10 @@
 ---
-title: Eboard 23  Program verification (1)
+title: Eboard 23  Skip lists (was Program verification (1))
 number: 23
 section: eboards
 held: 2017-10-23
 ---
-CSC 301.01, Class 23:  Program verification (1)
+CSC 301.01, Class 23:  Skip lists (was Program verification (1))
 ===============================================
 
 _Overview_
@@ -15,7 +15,6 @@ _Overview_
     * Extra credit
     * Questions
 * Skip lists
-* Goals for this unit
 * Verifying imperative code
 * Example - binary search
 * Example - binary search, revised
