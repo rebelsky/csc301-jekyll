@@ -43,7 +43,7 @@ _Overview_
 
 ### Upcoming work
 
-* [Assignment 8](../assignments/assignment08) due next Wednesday at 10:30 p.m.
+* [Assignment 8](../assignments/assignment08) due Wednesday at 10:30 p.m.
   (All written problems!)
 
 ### Extra credit (Academic/Artistic)
@@ -58,9 +58,11 @@ _Overview_
 ### Extra credit (Peer)
 
 * VR club Sundays at 8pm in ???.
-* Not-Pub Quiz?
+* Not-Pub Quiz Wednesday at 9pm in Bobs.  Free snacks.
 
 ### Extra Credit (Misc)
+
+* Pioneer Weekend.  Register by Nov. 8.
 
 ### Other good things
 
@@ -69,8 +71,8 @@ _Overview_
 Minimum spanning trees
 ----------------------
 
-Given a weighted non-directed connected graph, G(V,E), build a new
-connected graph G(V,E'), s.t.
+Given a non-negative weighted non-directed connected graph, G(V,E),
+build a new connected graph G(V,E'), s.t.
 
 * E' is a subset of E.
 * If G(V,F) is connected and F is a subset of E, the sum of the weights
@@ -79,11 +81,8 @@ connected graph G(V,E'), s.t.
 Why is it called a minimum spanning *tree* rather than a minimum 
 spanning *graph*?
 
-Designing an MST algorithm
---------------------------
-
-How might you approach the problem?  (Once we've come up with some
-approaches, we'll assign approaches to different groups.)
+* If you have a graph, you can just cut out one edge from a cycle and its
+  still connected.
 
 Examples
 --------
@@ -96,8 +95,53 @@ Edges: AB(6), AC(7), AE(8), BD(9), CD(1), CE(1), CF(2), DF(5),
 EF(10), EG(14), FG(8).
 ```
 
+Designing an MST algorithm
+--------------------------
+
+How might you approach the problem?  (Once we've come up with some
+approaches, we'll assign approaches to different groups.)
+
+* Divide and conquer
+* Greed
+    * Removing largest
+    * Selecting smallest
+* Use a variant of the shortest-path algorithm
+
 Approaches, Revisited
 ---------------------
+
+### Greed: Remove largest
+
+```
+unmark all edges
+while (we still have cycles)
+  let e be the larget unmarked edge
+  if (removing e disconnects the graph)
+    mark e
+  else
+    remove e
+  end if
+end while
+```
+
+### Greed: Add smallest
+
+```
+E' = { }
+Etmp = E
+while (G(V,E') is not complete)
+  let e be smallest edge in Etmp
+  Etmp = Etmp - e
+  if (G(V,E'+{e}) is cycle free)
+    E' = E' + {e}
+  end if
+end while
+```
+
+Can we break these?
+-------------------
+
+* Not in five minutes of work.
 
 Prim's algorithm and Kruskal's algorithm
 ----------------------------------------
