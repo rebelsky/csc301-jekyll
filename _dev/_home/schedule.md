@@ -39,7 +39,7 @@ section: home
             </td>
             <td>
               {% if class.reading %}
-                <ul>
+                <ul class="list-unstyled">
                   {% for item in class.reading %}
                     {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
                     {% assign reading = site.documents | where: "url", itemlong | first %}
@@ -56,7 +56,7 @@ section: home
             </td>
             <td>
               {% if class.lab %}
-                <ul>
+                <ul class="list-unstyled">
                   {% for item in class.lab %}
                     {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
                     {% assign lab = site.documents | where: "url", itemlong | first %}
