@@ -27,19 +27,19 @@ This is a take-home examination. You may use any time or times you deem
 appropriate to complete the exam, provided you return it to me by the
 due date.
 
-There are five problems on this examination. You must do your best
+There are four problems on this examination. You must do your best
 to answer all of them.  The problems are not necessarily of equal
-difficulty. Problems may include subproblems. If you complete five
+difficulty. Problems may include subproblems. If you complete four 
 problems correctly or mostly correctly, you will earn an A.  If you
-complete four problems correctly or mostly correctly, you will earn a B.
-If you complete three problems correctly or mostly correctly, you will
-earn a C.  If you complete two problems correctly or mostly correctly,
-you will earn a D.  If you complete fewer than two problems correctly
+complete three problems correctly or mostly correctly, you will earn a B.
+If you complete two problems correctly or mostly correctly, you will
+earn a C.  If you complete one problem correctly or mostly correctly,
+you will earn a D.  If you complete fewer than one problem correctly
 or mostly correctly, you will earn an F.  If you do not attempt the
 examination, you will earn a 0.  Partially correct solutions may or may
 not earn you a partial grade, depending on the discretion of the grader.
 
-I rarely give makeup problems because my experience in past semesters
+I rarely give makeup exams because my experience in past semesters
 is that students spend a lot of effort on such problems but do not
 significantly improve their grade.
 
