@@ -249,12 +249,12 @@
     - Minimum spanning trees
     - Examples
     - Designing an MST algorithm
-    - Prim's algorithm and Kruskal's algorithm
-    - Efficiency
-    - Proofs of correctness
 
 - topic: Miniumum spanning trees, continued
   abbrev: mst-continued
+    - Prim's algorithm and Kruskal's algorithm
+    - Efficiency
+    - Proofs of correctness
 
 - topic: Implementing graphs
   abbrev: graph-implementations

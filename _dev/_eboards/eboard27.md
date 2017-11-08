@@ -3,7 +3,6 @@ title: Eboard 27  Program verification (4)
 number: 27
 section: eboards
 held: 2017-11-01
-current: true
 ---
 CSC 301.01, Class 27:  Program verification (4)
 ===============================================
