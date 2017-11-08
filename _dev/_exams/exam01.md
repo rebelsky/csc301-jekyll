@@ -5,7 +5,6 @@ assigned: 2017-09-20
 prologue-due: 2017-09-22
 due: 2017-09-27
 due-time: 5:00 pm
-current: true
 ---
 # {{ page.title }}
 
