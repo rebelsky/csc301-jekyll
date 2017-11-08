@@ -193,9 +193,6 @@ sequence of values into the empty tree.
 c. Draw the red-black tree that results from removing gibbon from
 the tree you created in step a.
 
-d. Draw the two-three three that results from removing gibbon from the
-tree you created in step b.
-
 ### Problem 2: Trying tries
 
 In class, we built a trie to help us count the number of words in a
@@ -221,6 +218,7 @@ save samwise
 save sampling
 find samp
 sample
+samples
 sampling
 drop sam
 drop sample
@@ -284,9 +282,10 @@ based on the number of initial courses in each division.
 ### Problem 4: Extending a minimum spanning tree
 
 Suppose we are given a graph G(V,E) *and* a minimum spanning tree G(V,E')
-of that graph.  Give an O(n) algorithm to find the minimum spanning tree
-of the graph G(V,E+{<u,v,w>}), where <u,v,w> represents an undirected
-edge between u and v of weight w.
+of that graph.  Let n be the number of vertices and m be the number
+of nodes.  Give an O(n) algorithm to find the minimum spanning tree of
+the graph G(V,E+{<u,v,w>}), where <u,v,w> represents an undirected edge
+between u and v of weight w.
 
 That is, write an efficient algorithm that rebuilds a minimum spanning
 tree when an edge is added to a graph for which you've already built the
