@@ -250,12 +250,13 @@ assume that the strings contain only lowercase letters.
 
 ### Problem 3: Randomly selecting courses
 
-Professor P and his advisee are working on preregistration.  While
-they've agreed on the first three courses, they are debating what
-the student should take for the fourth course.  It could be an
-humanities course or it could be be a social science course.  They've
-made a list of possible courses.  They decide to repeatedly apply
-the following process for narrowing down the list of courses.
+Professor R and their advisee are working on preregistration.
+While they've agreed on the first three courses (CS, Studio Art, and
+Foreign Language), they are debating what the student should take for
+the fourth course.  It could be an humanities course or it could be
+be a social science course.  They've made a list of possible courses.
+They decide to repeatedly apply the following process for narrowing down
+the list of courses.
 
 * Randomly pick two courses from the list.
 * If the two courses are in the same division, that's a sign that
