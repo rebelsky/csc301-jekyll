@@ -3,7 +3,6 @@ title: Eboard 30  Miniumum spanning trees, continued
 number: 30
 section: eboards
 held: 2017-11-08
-current: true
 ---
 CSC 301.01, Class 30:  Miniumum spanning trees, continued
 =========================================================

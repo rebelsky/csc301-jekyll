@@ -252,15 +252,30 @@
 
 - topic: Miniumum spanning trees, continued
   abbrev: mst-continued
+  summary: We explore the details and proofs of correctness of some MST algorithms.
+  subjects:
     - Prim's algorithm and Kruskal's algorithm
     - Efficiency
     - Proofs of correctness
 
 - topic: Implementing graphs
   abbrev: graph-implementations
+  summary: We consider how we might implement/represent graphs in the computer.
+  subjects:
+    - MSTs, concluded
+    - Key graph operations
+    - Four implementations of graphs
+    - Associated costs
 
 - topic: Sets and union-find
   abbrev: union-find
+  summary: We consider an algorithm and structure that are useful in a variety of situations.
+  subjects:
+    - A set ADT
+    - Data structure design, revisited
+    - The union-find structure
+    - Analyzing union find
+    - Improving union-find
 
 - topic: Network flows
   abbrev: network-flows
