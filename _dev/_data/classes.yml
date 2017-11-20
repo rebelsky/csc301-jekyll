@@ -279,15 +279,25 @@
 
 - topic: Network flows
   abbrev: network-flows
+  summary: We explore netflork flow algorithms and their applications.
+  subjects:
+    - Looking back to graph algorithms
+    - Network flows
+    - Bipartite matching
 
 - topic: Dynamic programming (1)
   abbrev: dynamic-programming-1
-
-- topic: Discussion of exam 2
-  abbrev: exam2
+  summary: We consider another important algorithm design technique.
+    - Motivating problem
+    - The value of caching
+    - Dynamic programming, generalized
 
 - topic: Dynamic programming (2)
   abbrev: dynamic-programming-2
+    - The knapsack problem
+
+- topic: Discussion of exam 2
+  abbrev: exam2
 
 - topic: Dynamic programming (3)
   abbrev: dynamic-programming-3

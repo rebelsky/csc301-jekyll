@@ -1,17 +1,19 @@
 ---
-title: Assignment 9
-link: false
+title: "Assignment 9: Miscellany"
+link: true
 assigned:
-due: 2017-11-22
+due: 2017-11-29
 due-time: 10:30pm
 ---
 # {{ page.title }}
 
 *Due*: {{ page.due | date: '%A, %-d %B %Y' }} by {{ page.due-time }}
 
-*Summary*:
+*Summary*: In this assignment, you will explore some recent issues
+we have been discussing in class.
 
-*Purpose*:
+*Purpose*: To give you more familiarity with a variety of algorithms
+and approaches.
 
 *Collaboration* (code): You may discuss this assignment with anyone you
 like, provided you credit such discussion when you submit the assignment.
@@ -46,3 +48,8 @@ will be modified, as appropriate, for written and coding assignments.
 *Warning*: So that this assignment is a learning experience for everyone,
 we may spend class time publicly critiquing your work.
 
+Maximum flow problems: CLRS 26.2-3 and 26.2-11.
+
+Shortest path problems: Skiena 6-20, 6-21, 6-23, 6-24, and 6-25 .
+
+Implementation: Do the _Tourist Guide_ programming problem.
