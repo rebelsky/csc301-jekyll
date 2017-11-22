@@ -48,8 +48,8 @@ will be modified, as appropriate, for written and coding assignments.
 *Warning*: So that this assignment is a learning experience for everyone,
 we may spend class time publicly critiquing your work.
 
-Maximum flow problems: CLRS 26.2-3 and 26.2-11.
+Maximum flow problems: CLRS 26.2-3.
 
-Shortest path problems: Skiena 6-20, 6-21, 6-23, 6-24, and 6-25 .
+Shortest path problems: Skiena 6-20, 6-21, and 6-25.
 
 Implementation: Do the _Tourist Guide_ programming problem.
