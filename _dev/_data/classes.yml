@@ -288,16 +288,27 @@
 - topic: Dynamic programming (1)
   abbrev: dynamic-programming-1
   summary: We consider another important algorithm design technique.
-    - Motivating problem
+  subjects:
+    - A motivating problem
     - The value of caching
     - Dynamic programming, generalized
 
 - topic: Dynamic programming (2)
   abbrev: dynamic-programming-2
+  summary: We continue our consideration of dynamic programming
+  subjects:
+    - The value of caching
+    - Dynamic programming, generalized
     - The knapsack problem
 
 - topic: Discussion of exam 2
   abbrev: exam2
+  summary: We consider common issues on exam 2
+  subjects:
+    - Revisiting the cost of the stamps problem
+    - The 0-1 knapsack problem, continued
+    - Issues with problem 2 (Tries)
+    - Issues with problem 3 (Loop invariants)
 
 - topic: Dynamic programming (3)
   abbrev: dynamic-programming-3
