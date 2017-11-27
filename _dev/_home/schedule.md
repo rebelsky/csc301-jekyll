@@ -16,8 +16,6 @@ section: home
           <td class="hidden-xs">Day</td>
           <td>Date</td>
           <td colspan="2">Topic</td>
-          <td>Reading(s)</td>
-          <td>Lab</td>
           <td>Work Due</td>
         </tr>
         {% for day in week_data.days %}
@@ -36,40 +34,6 @@ section: home
                 {% if class.notes %}<li><a href="{{ class.notes }}">(notes)</a></li>{% endif %}
                 <br>
                   <em>{{ class.summary | markdownify | remove: '<p>' | remove: '</p>' }}</em>
-            </td>
-            <td>
-              {% if class.reading %}
-                <ul class="list-unstyled">
-                  {% for item in class.reading %}
-                    {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
-                    {% assign reading = site.documents | where: "url", itemlong | first %}
-                    {% if reading %}
-                      <li>{% include schedule_item.html item=reading show-due-time=false %}</li>
-                    {% else %}
-                      <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
-              {% else %}
-                <i>No reading</i>
-              {% endif %}
-            </td>
-            <td>
-              {% if class.lab %}
-                <ul class="list-unstyled">
-                  {% for item in class.lab %}
-                    {% assign itemlong = item | append: ".html" | replace: ".html.html", ".html" %}
-                    {% assign lab = site.documents | where: "url", itemlong | first %}
-                    {% if lab %}
-                      <li>{% include schedule_item.html item=lab show-due-time=false %}</li>
-                    {% else %}
-                      <li>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
-              {% else %}
-               <i>No lab</i>
-              {% endif %}
             </td>
             <td class="text-nowrap">
               {% assign work_due = site.documents | where: "due", day %}
