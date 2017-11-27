@@ -3,7 +3,6 @@ title: Eboard 36  Discussion of exam 2
 number: 36
 section: eboards
 held: 2017-11-22
-current: true
 ---
 CSC 301.01, Class 36:  Discussion of exam 2
 ===========================================
@@ -47,7 +46,23 @@ _Overview_
 Revisiting the cost of the stamps problem
 -----------------------------------------
 
+When we talk about the running time, we talk about the size of the input.
 
+* Our input is some stamp prices and a total price.
+* The total price is n.
+* We found an algorithm that is O(n).
+* Is `n` really the size of the input?
+    * No: We've ignored the stamp prices.  (We'll just ignore that
+      issue.  The problem is now, "Stamp prices are p1,...,pk.  Given
+      n, find the minimum number of stamps that make price n."
+    * There are a constant number of stamps, which accommodates the
+      "we check n-p1, n-p2, ..." issue.
+    * The "size" of the input is the number of bits required to represent
+      n.  So the size, s, is log_2(n).  This algorithm is an O(2^s)
+      algorithm.
+* This only becomes an issue when we start talking formally about P vs NP.
+* Our algorithm is still O(n).  But it's not a deterministic algorithm whose
+  runing time is a polynomial in the size of the input (informal def'n of P)
 
 The 0-1 knapsack problem, continued
 -----------------------------------
@@ -66,7 +81,27 @@ Issue: While we could have a simple table for the stamps problem, we
 somehow need to keep track of not just the weight remaining in the 
 backpack, but also the remaining items.
 
-Insight: 
+Insight: Two dimensional table.  The second dimension represents
+"the subset of the original elements that contains only elements
+0...i"
+
+In each cell (after the first row), we populate each square with the
+"better" of 
+
+* a: the same column, previous row, which represents "Don't take item i"
+* b: column c-w, previous row, which represents "Take item i and then
+  fill the rest of the backpack"
+    * i is the row
+    * c is the column number (the intermediate weight we are solving for)
+    * w is the weight of item i
+
+It should not matter we fill it horizontally or vertically, except
+for data locality.
+
+* Or, if we want an optimization, we only need to keep two rows around
+  if we do it in row order.
+
+The row is the number of items in the "prefix subset" of the original set.
 
 Issues with problem 2 (Tries)
 -----------------------------
@@ -78,13 +113,21 @@ Code does not match GNU style.
 
 * Style improves readability
 * Here's what I expect.
-    * Two spacae indent
+    * Two space indent
     * Braces on lines by themselves, indented (Sam likes comments on end 
       braces)
     * Type of procedure and procedure name on separate lines
     * Spaces after procedure names
 
 ```
+TrieNode *
+new_trie_node (void)
+{
+} // new_trie_node
+
+/**
+ * triad returns 1 if it successfully adds the string and 0 otherwise.
+ */
 int
 trie_add (TrieNode *trie, char *str)
 {
@@ -94,6 +137,7 @@ trie_add (TrieNode *trie, char *str)
     {
       ...
     } // while
+  return 1;
 } // trie_add
 ```
 
@@ -125,7 +169,11 @@ Memory leaks
     * <http://www.cs.grinnell.edu/~weinman/courses/CSC161/2017F/modules/lists/labs/pointers-malloc.shtml>
 * But how do I build the string as I go?
     * Feel free to allocate it, but free after you use it.
+        * `char *str = malloc (...);`
+        * recursive-call
+        * `free (str)`
     * Allocate on the stack.  (Make it a local variable.)
+        * `char str[SIZE]`
     * Pass along something big enough to expand.
 
 Other `malloc` issues
