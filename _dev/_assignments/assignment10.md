@@ -1,9 +1,10 @@
 ---
-title: Assignment 10
-link: false
+title: Assignment 10: Dynamic programming
+link: true
 assigned:
 due: 2017-12-06
 due-time: 10:30pm
+current: true
 ---
 # {{ page.title }}
 
