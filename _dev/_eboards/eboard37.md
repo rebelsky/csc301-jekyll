@@ -3,7 +3,6 @@ title: Eboard 37  Dynamic programming (3)
 number: 37
 section: eboards
 held: 2017-11-27
-current: true
 ---
 CSC 301.01, Class 37:  Dynamic programming (3)
 ==============================================
