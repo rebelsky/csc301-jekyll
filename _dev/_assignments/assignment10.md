@@ -9,14 +9,9 @@ due-time: 10:30pm
 
 *Due*: {{ page.due | date: '%A, %-d %B %Y' }} by {{ page.due-time }}
 
-*Summary*:
+*Summary*: You will complete a few dynamic programming problems.
 
-*Purpose*:
-
-*Collaboration* (code): You may discuss this assignment with anyone you
-like, provided you credit such discussion when you submit the assignment.
-You will learn more if you do most of the coding on your own, but you
-may choose to submit the code for the assignment as a pair or trio.
+*Purpose*: To further your understanding of this methodology.
 
 *Collaboration* (written): You may discuss this assignment with anyone you
 like, provided you credit such discussion when you submit the assignment.
@@ -25,16 +20,13 @@ initial design discussions in a group with individual writing.  Each
 person should write up his, her, zir, or their own work and submit it
 individually.
 
-*Submitting* (code): Create a tarball from your code and then mail it
-to your course instructor with a subject of **CSC 301 Assignment {{
-page.number }} (Your Name)**.  You should, of course, substitute your
-name in that subject.
-
 *Submitting* (written): Turn in your work under my office door.  While I
 would prefer that you use LaTeX, you may certainly do your work by hand.
 Make sure to include your name, course information, and date at the
 top of the page.  If you use paper torn from a loose-leaf notebook,
 make sure to remove or trim any lose edges.
+
+*Work*: Do problem 8-1, 8-2, and 8-3 from Skienna
 
 *Evaluation*: We will primarily evaluate your work on its *correctness*
 (e.g., does it compute what it is supposed to; does it meet the
