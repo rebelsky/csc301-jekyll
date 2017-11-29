@@ -312,7 +312,7 @@
 
 - topic: Dynamic programming (3)
   abbrev: dynamic-programming-3
-  summary: We conclude our initial exploration of dynamic programming by visiting a common dynamic programming algorithm: Approximate string matching.
+  summary: We conclude our initial exploration of dynamic programming by visiting a common dynamic programming algorithm, approximate string matching.
   subjects:
     - Review: Core ideas of dynamic programming
     - The edit distance problem
@@ -323,6 +323,7 @@
   abbrev: string-matching basics
   summary: We consider some basic issues in string matching algorithms
   subjects:
+    - Approximate substring matching
     - Exact substring matching
     - The brute-force approach
     - The hash-code approach

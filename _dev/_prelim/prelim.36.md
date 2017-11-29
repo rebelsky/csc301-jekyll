@@ -10,7 +10,7 @@ link: true
 
 ### Upcoming work
 
-* [Homework 9](../assignment09) due Wednesday.
+* [Homework 9](../assignments/assignment09) due Wednesday.
 * Only one more homework after that one!  (Dynamic programming.)
 
 ### Extra Credit (Academic/Artistic)
