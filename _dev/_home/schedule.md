@@ -28,7 +28,7 @@ section: home
             <td class="hidden-xs">{{ day | date: "%A" | remove: "onday" | remove: "uesday" | remove: "ednesday" | remove: "ursday" | remove: "riday" }}</td>
             <td>{{ day | date: "%-m/%-d" }}</td>
             <td halign="left" colspan="2">
-                    <a href="{{ site.baseurl }}/outlines/outline.{{ twodig }}.html">
+                    <a href="{{ site.baseurl }}/eboards/eboard{{ twodig }}.html">
                     <strong>{{ class.topic | markdownify | remove: '<p>' | remove: '</p>' }}</strong>
                     </a>
                 {% if class.notes %}<li><a href="{{ class.notes }}">(notes)</a></li>{% endif %}
