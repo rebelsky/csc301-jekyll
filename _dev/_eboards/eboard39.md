@@ -3,6 +3,7 @@ title: Eboard 39  Improved string-matching algorithms
 number: 39
 section: eboards
 held: 2017-12-01
+current: true
 ---
 CSC 301.01, Class 39:  Improved string-matching algorithms
 ==========================================================
