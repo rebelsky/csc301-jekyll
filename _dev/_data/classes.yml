@@ -327,10 +327,14 @@
     - Exact substring matching
     - The brute-force approach
     - The hash-code approach
-    - Multiple string matching
 
 - topic: Improved string-matching algorithms
   abbrev: string-matching-improved
+  summary: We continue to explore string-matching algorithms
+  subjects: 
+    - The hash-code approach
+    - Keeping track of look-ahead
+    - Building the table
 
 - topic: "Looking ahead: P vs. NP"
   abbrev: p-vs-np
